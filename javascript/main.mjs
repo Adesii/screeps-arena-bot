@@ -1,8 +1,8 @@
-import { initSync, wasm_loop } from "./screeps-arena-starter-rust";
-import wasm_bytes from "./screeps-arena-starter-rust_bg.wasm.bin";
+import { initSync, wasm_loop } from "./screeps-arena-bot";
+import wasm_bytes from "./screeps-arena-bot_bg.wasm.bin";
 const wasm_module = new WebAssembly.Module(wasm_bytes);
 initSync({ module: wasm_module });
-export * from "./screeps-arena-starter-rust";
+export * from "./screeps-arena-bot";
 
 Error.stackTraceLimit = 100;
 

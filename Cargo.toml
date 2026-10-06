@@ -41,6 +41,10 @@ wasm-opt = ["-O4", "-g"]
 [features]
 default = []
 
+# These select this bot's strategy. Dependency features only select API bindings.
+
 arena-capture-the-flag = ["screeps-arena-game-api/arena-capture-the-flag"]
 arena-spawn-and-swamp = ["screeps-arena-game-api/arena-spawn-and-swamp"]
 arena-collect-and-control = ["screeps-arena-game-api/arena-collect-and-control"]
+# Pain and Gain reuses Capture the Flag bindings, not this bot's CTF strategy.
+season4-pain_and_gain = ["screeps-arena-game-api/arena-capture-the-flag"]
