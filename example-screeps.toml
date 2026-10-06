@@ -7,9 +7,9 @@ out_name = "screeps-arena-bot"
 [pag]
 destination = "/Users/username/ScreepsArena"
 prune = false
-branch = "s4-pain_and_gain"
+branch = "season4-pain_and_gain"
   [pag.build]
-  extra_options = ["--no-default-features", "--features=s4-pain-and-gain"]
+  extra_options = ["--no-default-features", "--features=season4-pain_and_gain"]
 
 [ctf]
 destination = "/Users/username/ScreepsArena"

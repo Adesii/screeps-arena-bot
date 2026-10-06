@@ -39,7 +39,7 @@ wasm-opt = ["-O4", "-g"]
 #wasm-opt = false
 
 [features]
-default = []
+default = ["season4-pain_and_gain"]
 
 # These select this bot's strategy. Dependency features only select API bindings.
 
